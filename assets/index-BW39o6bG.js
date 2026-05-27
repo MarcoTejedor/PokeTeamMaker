@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/HomeView-D-JFXm6d.js","assets/HomeView-C8uxRyYR.css","assets/LoginView-CvzX0RCS.js","assets/LoginView-efiNmz_u.css","assets/RegisterView-CBlCoi4G.js","assets/TeamsView-Bh2jf6IQ.js","assets/TeamsView-t2mQLdFw.css","assets/TeamDetailView-GeH7g035.js","assets/TypeIcon-Bf4gH6XT.js","assets/TeamDetailView-jBgLmf43.css","assets/PokemonSlotView-C9_HTf4G.js","assets/PokemonSlotView-F1TLAeTc.css","assets/LogoutConfirmationView-nCROz1eS.js","assets/LogoutConfirmationView-BqKC4P18.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/HomeView-CAnBec0W.js","assets/HomeView-C8uxRyYR.css","assets/LoginView-r-UXaF_k.js","assets/LoginView-efiNmz_u.css","assets/RegisterView-B6D_FNyM.js","assets/TeamsView-MqIJrdFW.js","assets/TeamsView-t2mQLdFw.css","assets/TeamDetailView-BON80Iy6.js","assets/TypeIcon-DUBbVdom.js","assets/TeamDetailView-jBgLmf43.css","assets/PokemonSlotView-CmwlVrhf.js","assets/PokemonSlotView-F1TLAeTc.css","assets/LogoutConfirmationView-WMFLxXYw.js","assets/LogoutConfirmationView-BqKC4P18.css"])))=>i.map(i=>d[i]);
 //#region \0rolldown/runtime.js
 var __defProp = Object.defineProperty;
 var __exportAll = (all, no_symbols) => {
@@ -9558,7 +9558,7 @@ function getCookie(name) {
 	return cookieValue;
 }
 var api = axios.create({
-	baseURL: `http://localhost:8000/api`,
+	baseURL: `https://poketeammaker.onrender.com/api`,
 	withCredentials: true,
 	headers: { "Content-Type": "application/json" }
 });
@@ -9762,13 +9762,13 @@ var __vitePreload = function preload(baseModule, deps, importerUrl) {
 };
 //#endregion
 //#region src/router/index.js
-var HomeView = () => __vitePreload(() => import("./HomeView-D-JFXm6d.js"), __vite__mapDeps([0,1]));
-var LoginView = () => __vitePreload(() => import("./LoginView-CvzX0RCS.js"), __vite__mapDeps([2,3]));
-var RegisterView = () => __vitePreload(() => import("./RegisterView-CBlCoi4G.js"), __vite__mapDeps([4,3]));
-var TeamsView = () => __vitePreload(() => import("./TeamsView-Bh2jf6IQ.js"), __vite__mapDeps([5,6]));
-var TeamDetailView = () => __vitePreload(() => import("./TeamDetailView-GeH7g035.js"), __vite__mapDeps([7,8,9]));
-var PokemonSlotView = () => __vitePreload(() => import("./PokemonSlotView-C9_HTf4G.js"), __vite__mapDeps([10,8,11]));
-var InfoView = () => __vitePreload(() => import("./InfoView-DTqKaueA.js"), []);
+var HomeView = () => __vitePreload(() => import("./HomeView-CAnBec0W.js"), __vite__mapDeps([0,1]));
+var LoginView = () => __vitePreload(() => import("./LoginView-r-UXaF_k.js"), __vite__mapDeps([2,3]));
+var RegisterView = () => __vitePreload(() => import("./RegisterView-B6D_FNyM.js"), __vite__mapDeps([4,3]));
+var TeamsView = () => __vitePreload(() => import("./TeamsView-MqIJrdFW.js"), __vite__mapDeps([5,6]));
+var TeamDetailView = () => __vitePreload(() => import("./TeamDetailView-BON80Iy6.js"), __vite__mapDeps([7,8,9]));
+var PokemonSlotView = () => __vitePreload(() => import("./PokemonSlotView-CmwlVrhf.js"), __vite__mapDeps([10,8,11]));
+var InfoView = () => __vitePreload(() => import("./InfoView-DKPY8NMR.js"), []);
 var routes = [
 	{
 		path: "/",
@@ -9815,7 +9815,7 @@ var routes = [
 	{
 		path: "/logout-confirmation",
 		name: "LogoutConfirmation",
-		component: () => __vitePreload(() => import("./LogoutConfirmationView-nCROz1eS.js"), __vite__mapDeps([12,13])),
+		component: () => __vitePreload(() => import("./LogoutConfirmationView-WMFLxXYw.js"), __vite__mapDeps([12,13])),
 		meta: { requiresAuth: false }
 	}
 ];

@@ -1,4 +1,4 @@
-import { T as ref, m as createElementBlock, p as createCommentVNode, t as _plugin_vue_export_helper_default, v as onMounted, y as openBlock } from "./index-DqJ2-gbd.js";
+import { T as ref, m as createElementBlock, p as createCommentVNode, t as _plugin_vue_export_helper_default, v as onMounted, y as openBlock } from "./index-BW39o6bG.js";
 //#region src/components/TypeIcon.vue
 var POKEAPI = "https://pokeapi.co/api/v2";
 var TYPE_ICON_CACHE = "pokeapi_type_icons";
