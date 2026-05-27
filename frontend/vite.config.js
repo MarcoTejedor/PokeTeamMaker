@@ -4,9 +4,6 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   base: '/PokeTeamMaker/',
-  build: {
-    minify: false // <--- AÑADE ESTO TEMPORALMENTE
-  },
   plugins: [vue()],
   resolve: {
     alias: {
