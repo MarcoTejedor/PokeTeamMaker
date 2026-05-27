@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/HomeView-HuH8VmiO.js","assets/HomeView-C8uxRyYR.css","assets/LoginView-Mxs70XVN.js","assets/LoginView-efiNmz_u.css","assets/RegisterView-D54Kj7pW.js","assets/TeamsView-DPmKhg1Q.js","assets/TeamsView-t2mQLdFw.css","assets/TeamDetailView-DNPxjN9N.js","assets/TypeIcon-BGU07Z9H.js","assets/TeamDetailView-jBgLmf43.css","assets/PokemonSlotView-BdVktzx4.js","assets/PokemonSlotView-F1TLAeTc.css","assets/LogoutConfirmationView-B0humOKU.js","assets/LogoutConfirmationView-BqKC4P18.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/HomeView-D-JFXm6d.js","assets/HomeView-C8uxRyYR.css","assets/LoginView-CvzX0RCS.js","assets/LoginView-efiNmz_u.css","assets/RegisterView-CBlCoi4G.js","assets/TeamsView-Bh2jf6IQ.js","assets/TeamsView-t2mQLdFw.css","assets/TeamDetailView-GeH7g035.js","assets/TypeIcon-Bf4gH6XT.js","assets/TeamDetailView-jBgLmf43.css","assets/PokemonSlotView-C9_HTf4G.js","assets/PokemonSlotView-F1TLAeTc.css","assets/LogoutConfirmationView-nCROz1eS.js","assets/LogoutConfirmationView-BqKC4P18.css"])))=>i.map(i=>d[i]);
 //#region \0rolldown/runtime.js
 var __defProp = Object.defineProperty;
 var __exportAll = (all, no_symbols) => {
@@ -9762,13 +9762,13 @@ var __vitePreload = function preload(baseModule, deps, importerUrl) {
 };
 //#endregion
 //#region src/router/index.js
-var HomeView = () => __vitePreload(() => import("./HomeView-HuH8VmiO.js"), __vite__mapDeps([0,1]));
-var LoginView = () => __vitePreload(() => import("./LoginView-Mxs70XVN.js"), __vite__mapDeps([2,3]));
-var RegisterView = () => __vitePreload(() => import("./RegisterView-D54Kj7pW.js"), __vite__mapDeps([4,3]));
-var TeamsView = () => __vitePreload(() => import("./TeamsView-DPmKhg1Q.js"), __vite__mapDeps([5,6]));
-var TeamDetailView = () => __vitePreload(() => import("./TeamDetailView-DNPxjN9N.js"), __vite__mapDeps([7,8,9]));
-var PokemonSlotView = () => __vitePreload(() => import("./PokemonSlotView-BdVktzx4.js"), __vite__mapDeps([10,8,11]));
-var InfoView = () => __vitePreload(() => import("./InfoView-DZY-2dkr.js"), []);
+var HomeView = () => __vitePreload(() => import("./HomeView-D-JFXm6d.js"), __vite__mapDeps([0,1]));
+var LoginView = () => __vitePreload(() => import("./LoginView-CvzX0RCS.js"), __vite__mapDeps([2,3]));
+var RegisterView = () => __vitePreload(() => import("./RegisterView-CBlCoi4G.js"), __vite__mapDeps([4,3]));
+var TeamsView = () => __vitePreload(() => import("./TeamsView-Bh2jf6IQ.js"), __vite__mapDeps([5,6]));
+var TeamDetailView = () => __vitePreload(() => import("./TeamDetailView-GeH7g035.js"), __vite__mapDeps([7,8,9]));
+var PokemonSlotView = () => __vitePreload(() => import("./PokemonSlotView-C9_HTf4G.js"), __vite__mapDeps([10,8,11]));
+var InfoView = () => __vitePreload(() => import("./InfoView-DTqKaueA.js"), []);
 var routes = [
 	{
 		path: "/",
@@ -9815,12 +9815,12 @@ var routes = [
 	{
 		path: "/logout-confirmation",
 		name: "LogoutConfirmation",
-		component: () => __vitePreload(() => import("./LogoutConfirmationView-B0humOKU.js"), __vite__mapDeps([12,13])),
+		component: () => __vitePreload(() => import("./LogoutConfirmationView-nCROz1eS.js"), __vite__mapDeps([12,13])),
 		meta: { requiresAuth: false }
 	}
 ];
 var router = createRouter({
-	history: createWebHashHistory()(),
+	history: createWebHashHistory(),
 	routes
 });
 router.beforeEach((to, from, next) => {

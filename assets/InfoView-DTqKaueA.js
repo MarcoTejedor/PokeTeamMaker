@@ -1,4 +1,4 @@
-import { C as withCtx, _ as createVNode, d as createBaseVNode, g as createTextVNode, h as createStaticVNode, m as createElementBlock, t as _plugin_vue_export_helper_default, x as resolveComponent, y as openBlock } from "./index-DkkCPkP6.js";
+import { C as withCtx, _ as createVNode, d as createBaseVNode, g as createTextVNode, h as createStaticVNode, m as createElementBlock, t as _plugin_vue_export_helper_default, x as resolveComponent, y as openBlock } from "./index-DqJ2-gbd.js";
 //#region src/views/InfoView.vue
 var _sfc_main = { name: "InfoView" };
 var _hoisted_1 = { class: "min-h-screen bg-slate-50 py-12 px-4" };
